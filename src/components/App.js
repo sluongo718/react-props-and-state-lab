@@ -38,7 +38,7 @@ class App extends React.Component {
 
 
   hanldeFilterChange = (event) => {
-    debugger
+   
     this.setState({filters: {type: event.target.value} })
   }
 
